@@ -52,10 +52,8 @@
 }
 
 .scrolledNav {
-  background: rgba(15, 23, 42, 0.9);
   backdrop-filter: blur(10px);
   padding: 1rem 4rem;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .logoContainer {
