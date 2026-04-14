@@ -206,20 +206,20 @@
 .rightTag {
   position: absolute;
   bottom: 2rem;
-  right: 0;
+  /* Keep clear of browser scrollbar/edge */
+  right: max(1.75rem, env(safe-area-inset-right, 5px));
   background-color: #ffffff;
-  padding: 1.5rem 0.5rem;
+  padding: 2rem 0.75rem;
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
+  border-radius: 10px;
   z-index: 10;
-  box-shadow: -4px 0 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
 }
 
 .rightTag span {
   color: #64748b;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 2px;
 }
