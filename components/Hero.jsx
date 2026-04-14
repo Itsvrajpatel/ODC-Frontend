@@ -14,9 +14,9 @@ const Hero = () => {
     if (!bgRef.current) return;
     const { innerWidth, innerHeight } = window;
     const { clientX, clientY } = e;
-    
+
     // Calculate movement (using 40px as max movement offset)
-    const xPos = (clientX / innerWidth - 0.5) * 40; 
+    const xPos = (clientX / innerWidth - 0.5) * 40;
     const yPos = (clientY / innerHeight - 0.5) * 30;
 
     gsap.to(bgRef.current, {
