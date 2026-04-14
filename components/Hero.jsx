@@ -45,7 +45,7 @@ const Hero = () => {
       {/* Background Image Setup */}
       <div className={styles.bgWrapper} ref={bgRef}>
         <Image
-          src="/assets/truck.jpeg"
+          src="/assets/trucks.png"
           alt="Freight Trucks on Highway"
           fill
           priority
@@ -91,10 +91,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Right Bottom Tag */}
-      <div className={styles.rightTag}>
-        <span>INTRODUCTION</span>
-      </div>
     </section>
   );
 };
