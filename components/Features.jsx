@@ -55,6 +55,7 @@ const features = [
     ],
     image: '/assets/ODCworks.jpeg',
     imageAlt: 'Compliance documentation',
+    imagePosition: 'left top',
     accent: '#7c3aed',
   },
 ];
@@ -103,7 +104,12 @@ const FeatureCard = ({ feature, index }) => {
       {/* Image Panel */}
       <div className={styles.imagePanel}>
         <div className={styles.imageFrame} style={{ '--accent': feature.accent }}>
-          <img src={feature.image} alt={feature.imageAlt} className={styles.featureImg} />
+          <img
+            src={feature.image}
+            alt={feature.imageAlt}
+            className={styles.featureImg}
+            style={{ objectPosition: feature.imagePosition || 'center' }}
+          />
           <div className={styles.imageOverlay} style={{ background: `${feature.accent}22` }}></div>
         </div>
       </div>
