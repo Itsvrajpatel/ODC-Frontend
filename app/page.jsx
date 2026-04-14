@@ -2,6 +2,7 @@ import Hero from '../components/Hero';
 import About from '../components/About';
 import Features from '../components/Features';
 import Banner from '../components/Banner';
+import ContactForm from '../components/ContactForm';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <About />
       <Features />
       <Banner />
+      <ContactForm />
     </main>
   );
 }
