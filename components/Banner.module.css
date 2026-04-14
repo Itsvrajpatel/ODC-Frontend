@@ -10,7 +10,7 @@
 
 .bgWrapper {
   position: absolute;
-  inset: -80px 0;
+  inset: 0;
   z-index: 0;
 }
 
