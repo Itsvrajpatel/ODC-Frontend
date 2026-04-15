@@ -145,7 +145,10 @@
 
 .headline {
   white-space: nowrap;
-  font-size: clamp(8px, calc((100vw - 4rem) / 25), 3.5rem);
+  max-width: 100%;
+  font-size: clamp(1.6rem, 3.4vw, 3.1rem);
+  overflow: hidden;
+  text-overflow: ellipsis;
   font-weight: 500;
   line-height: 1.2;
   color: #ffffff;
@@ -240,9 +243,9 @@
 /* Responsive */
 @media (max-width: 1024px) {
   .headline {
-    white-space: normal;
-    font-size: clamp(2.5rem, 6vw, 3rem);
-    padding: 0 1rem;
+    white-space: nowrap;
+    font-size: clamp(1.4rem, 3.2vw, 2.4rem);
+    padding: 0 0.5rem;
   }
 }
 
