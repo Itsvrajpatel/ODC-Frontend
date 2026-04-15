@@ -79,7 +79,7 @@ const About = () => {
           
           <div className={styles.paragraphs}>
             <p>
-              Owner Driver Collective is a freight platform built on a clear principle: 
+              Order Driven Collector is a freight platform built on a clear principle: 
               when systems are designed properly, safer work follows.
             </p>
             

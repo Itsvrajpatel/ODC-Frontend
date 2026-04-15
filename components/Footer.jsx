@@ -36,7 +36,7 @@ export default function Footer() {
             </div>
             <div className={styles.logoText}>
               <span className={styles.logoName}>ODC</span>
-              <span className={styles.logoSub}>Owner Driver Collective</span>
+              <span className={styles.logoSub}>Order Driven Collector</span>
             </div>
           </div>
 
@@ -112,7 +112,7 @@ export default function Footer() {
 
       {/* Bottom bar: Copyright */}
       <div className={styles.bottomBar}>
-        <p>© 2026 Owner Driver Collective. All rights reserved.</p>
+        <p>© 2026 Order Driven Collector. All rights reserved.</p>
       </div>
 
     </footer>

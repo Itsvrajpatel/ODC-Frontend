@@ -64,7 +64,7 @@ const Hero = () => {
           </div>
           <div className={styles.logoText}>
             <h1>ODC</h1>
-            <span>Owner Driver Collective</span>
+            <span>Order Driven Collector</span>
           </div>
         </div>
 

@@ -1,7 +1,7 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Owner Driver Collective | Freight Operations',
+  title: 'Order Driven Collector | Freight Operations',
   description: 'A freight operations SaaS platform built for the Australian road transport industry.',
 };
 

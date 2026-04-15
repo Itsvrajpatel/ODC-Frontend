@@ -21,7 +21,7 @@ const features = [
     tag: 'The Platform',
     title: 'One operational view for the entire chain',
     body: [
-      'Owner Driver Collective brings job allocation, duty recording, and compliance guidance into one operational view.',
+      'Order Driven Collector brings job allocation, duty recording, and compliance guidance into one operational view.',
       'Work is assessed before it reaches drivers, reducing unsafe or unsuitable allocation at the outset. Duty and rest are recorded digitally through a structured electronic work diary, creating consistent records ready for inspection or audit without additional preparation.While work is underway, the platform provides practical prompts that support compliant decisions around rest and duty changes.',
     ],
     image: '/assets/Platform.jpeg',
@@ -30,7 +30,7 @@ const features = [
   },
   {
     id: '03',
-    tag: 'About - Owner Driver Collective!',
+    tag: 'About - Order Driven Collector!',
     title: 'ODC was created in response to long-standing structural issues in road transport.',
     body: [
       'Too often, work is allocated without a lear view of compliance impact, records are maintained separately from job planning, and responsibility is pushed down the chain rather than managed where decisions are made.',

@@ -52,7 +52,7 @@ export async function submitContact(prevState, formData) {
             </tr>
           </table>
           <p style="color: #94a3b8; font-size: 12px; margin-top: 24px;">
-            Sent from the Owner Driver Collective contact form.
+            Sent from the Order Driven Collector contact form.
           </p>
         </div>
       `,
